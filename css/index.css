@@ -1,0 +1,261 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Bai_Jamjuree", sans-serif;
+}
+#up-div{
+	width: 100%;
+	height: 600px;
+	background-image: url("../imgs/bg-header-desktop.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+#f1{
+	width: 45%;
+	height: auto;
+	background: rgba(0,0,0,0);
+	margin-left: 30%;
+	
+}
+#f1 div{
+	display: flex;
+	/*flex-wrap: wrap;
+	flex-direction: row;*/
+}
+#f1 img{
+	margin-left: 40%;
+	margin-top: 12%;
+}
+#f1 p{
+	color:hsl(210, 10%, 33%);
+	font-size:40px;
+}
+#f1 p span{
+	color:hsl(201, 11%, 66%);
+	font-size:18px;
+}
+#b1{
+	width: 30%;
+	min-height: 50px;
+	height: auto;
+	background:hsl(171, 66%, 44%);
+	color:white;
+	border-radius: 25px;
+	border: none;
+	margin-left: 18%;
+	cursor:pointer;
+
+}
+#b2{
+	width: 30%;
+	min-height: 50px;
+	height: auto;
+	background:hsl(233, 100%, 69%);
+	border-radius: 25px;
+	border: none;
+	margin-left: 2%;
+	color:white;
+	cursor:pointer;
+
+}
+.big_lines{
+	color:hsl(210, 10%, 33%);
+	font-size:40px;
+	text-align: center;
+}
+.big_lines span{
+	color:hsl(201, 11%, 66%);
+	font-size:18px;
+}
+.bodys{
+	width: auto;
+	height: auto;
+	background: white;
+	display: flex;
+}
+.bodys div{
+	width: auto;
+	height: auto;
+	background: white;
+	margin-top: 20px;
+	margin-left: 150px;
+}
+.lines{
+	color:hsl(210, 10%, 33%);
+	font-size: 30px;
+}
+.lines span{
+	color:hsl(201, 11%, 66%);
+	font-size:18px;
+}
+.divs,.divs2{
+	width: auto;
+	height: auto;
+	background: white;
+	display: flex;
+}
+.divs div{
+	width: 25%;
+	height: auto;
+	background: white;
+	margin-right: 5px;
+	
+}
+#d1{
+	margin-left: 170px;
+}
+.second-pic{
+	margin-left: 20%;
+}
+.divs img{
+	margin-left: 40%;
+}
+.divs p{
+	font-size: 30px;
+}
+.divs2 img{
+	margin:50px;
+}
+.divs2 #img1{
+	margin-left: 150px;
+}
+.bottom{
+	width: 100%;
+	height: 100px;
+	background:lightgrey;
+	display: flex;
+}
+.bottom img{
+	width: 50px;
+	height: 50px;
+	margin-left: 12%;
+	margin-top: 1.5%;
+}
+.l1,.l2,.l3{
+	width: auto;
+	height: auto;
+	background:transparent;
+	margin-left: 80px;
+	text-decoration: none;
+}
+.l1{
+	margin-left: 200px;
+}
+.l1 a,.l2 a,.l3 a{
+	text-decoration: none;
+	color:hsl(210, 10%, 33%);
+}
+.ls:hover{
+	color: hsl(171, 66%, 44%);
+}
+.icons{
+	display: flex;
+	margin-left: 450px;
+}
+.icons img{
+	width: 20px;
+	height: 20px;
+	margin-top: 110%;
+	margin-left: 20px;
+}
+.lis:hover{
+	color: hsl(171, 66%, 44%);
+}
+@media(max-width: 390px){
+#f1{
+	width: 70%;
+	margin-left: 17%;
+
+}
+#f1 img{
+	margin-left: 18%;
+}
+#f1 p{
+	font-size:20px;
+}
+#f1 div{
+  	display: block;
+}
+#b1{
+	width: 100%;
+	margin-left: 1px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#b2{
+	width: 100%
+}
+.bodys{
+	display: block;
+}
+.bodys img{
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	height: auto;
+}
+.bodys div{
+	justify-content: center;
+	margin-left: 0;
+	margin-top: 0;
+	margin-top: 50px;
+}
+.lines{
+	text-align: center;
+	font-size: 20px;
+}
+.second-pic{
+	width: 90%;
+	margin-left: 0;
+	margin-right: 5%;
+	height: auto;
+}
+.divs{
+	display: block;
+	justify-content: center;
+
+}
+#d1{
+	margin-left: 0;
+}
+.divs div{
+	width: 100%;
+
+}
+.divs2{
+	display: block;
+}
+.divs2 #img1{
+	margin-left: 30%;
+}
+.divs2 img{
+	width: auto;
+	height: auto;
+	margin-left: 30%;
+}
+.bottom{
+	display: block;
+	height: auto;
+}
+
+.bottom img{
+	width: 50px;
+	height: 50px;
+	margin-left: 45%;
+	margin-top: 7%;
+}
+.l1,.l2,.l3{
+	width: 100%;
+	margin-left: 0;
+	text-align: center;
+	
+}
+.icons{
+	margin-left: 28%;
+}
+.icons img{
+	width: 20px;
+	height: 20px;
+	margin-left: 30px;
+}
+}
